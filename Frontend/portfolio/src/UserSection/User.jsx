@@ -42,9 +42,9 @@ export function User() {
 
           <div className="flex flex-col sm:flex-row justify-between items-center sm:items-end mt-6">
             <p className="text-white text-sm sm:text-base lg:text-lg">~ Open to work</p>
-            <button className="bg-blue-600 px-4 py-2 mt-4 sm:mt-0 w-full sm:w-auto text-white text-sm sm:text-base lg:text-lg rounded-xl font-bold transition-transform duration-300 hover:scale-105">
+            <a href="https://x.com/TSilent_Monk"><button className="bg-blue-600 px-4 py-2 mt-4 sm:mt-0 w-full sm:w-auto text-white text-sm sm:text-base lg:text-lg rounded-xl font-bold transition-transform duration-300 hover:scale-105">
               Connect <i className="fa-brands fa-twitter cursor-pointer"></i>
-            </button>
+            </button></a>
           </div>
         </div>
       </div>
