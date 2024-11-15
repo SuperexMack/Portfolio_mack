@@ -1,5 +1,6 @@
 import LinkedPhoto from "./adderphott.png";
 
+
 export function User() {
   return (
     <>
@@ -16,10 +17,10 @@ export function User() {
           <div className="text-white font-bold flex flex-col space-y-4 mt-4 sm:mt-0 sm:ml-6 text-center sm:text-left">
             <h1 className="text-[20px] sm:text-[25px] lg:text-[30px]">Mohit Sati</h1>
             <div className="flex justify-center sm:justify-start flex-row space-x-4 sm:space-x-6 text-[16px] sm:text-[18px] lg:text-[20px]">
-              <i className="fa-brands fa-linkedin cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i>
-              <i className="fa-brands fa-discord cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i>
-              <i className="fa-brands fa-twitter cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i>
-              <i className="fa-brands fa-github cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i>
+              <a href="https://www.linkedin.com/in/mohit-sati-pop/"><i  className="fa-brands fa-linkedin cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://discord.com/channels/@me"><i  className="fa-brands fa-discord cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://x.com/TSilent_Monk"><i  className="fa-brands fa-twitter cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://github.com/SuperexMack"><i  className="fa-brands fa-github cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
             </div>
           </div>
         </div>
@@ -29,7 +30,7 @@ export function User() {
             Love to code and passionate about the world of tech, interested in
             computer science and Semiconductors. <br /> <br />
             Full-stack developer at{" "}
-            <strong className="text-green-600">@BiraoCoin</strong> but looking
+            <strong className="text-green-600"><a href="https://birao-coin.vercel.app/">@BiraoCoin</a></strong> but looking
             for backend roles/full-stack/frontend roles.
           </p>
 
@@ -40,7 +41,7 @@ export function User() {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-between items-center sm:items-end mt-6">
-            <p className="text-white text-sm sm:text-base lg:text-lg">~Open to work</p>
+            <p className="text-white text-sm sm:text-base lg:text-lg">~ Open to work</p>
             <button className="bg-blue-600 px-4 py-2 mt-4 sm:mt-0 w-full sm:w-auto text-white text-sm sm:text-base lg:text-lg rounded-xl font-bold transition-transform duration-300 hover:scale-105">
               Connect <i className="fa-brands fa-twitter cursor-pointer"></i>
             </button>

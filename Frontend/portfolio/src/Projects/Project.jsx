@@ -20,7 +20,7 @@ export function Project() {
       <div className="h-auto w-full max-w-[800px] flex flex-col items-center space-y-10 mx-auto p-4">
         <p className="font-bold text-[32px] sm:text-[40px] text-yellow-600 underline text-center">Proof of Work</p>
 
-        {/* video section */}
+        
         <div className="space-y-9">
           <p className="font-bold text-[16px] sm:text-[20px] text-white text-center">
             1. A Wallet Adapter for One of My client who is working in web3
@@ -50,7 +50,7 @@ export function Project() {
           ></video>
         </div>
 
-        {/* project cards */}
+       
         <div className="mt-4 w-full flex flex-col items-center space-y-10">
           <h1 className="text-[32px] sm:text-[40px] font-bold text-yellow-600 underline p-6 text-center">My previous project</h1>
 
