@@ -3,7 +3,7 @@ import LinkedPhoto from "./adderphott.png";
 export function User() {
   return (
     <>
-      <div className="h-auto w-full sm:w-[600px] lg:w-[800px] mx-auto flex flex-col mt-[20px] p-2">
+      <div className="h-auto w-full sm:w-[400px] lg:w-[600px] mx-auto flex flex-col mt-[20px] p-2">
         <div className="space-x-0 sm:space-x-11 h-auto sm:h-[200px] w-full flex flex-col sm:flex-row items-center">
           <div>
             <img

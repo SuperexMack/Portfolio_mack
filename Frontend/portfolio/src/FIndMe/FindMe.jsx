@@ -3,7 +3,7 @@ export function FindMe() {
       <>
         <div className="w-full max-w-[800px] h-auto flex flex-col items-center space-y-9 px-4 sm:px-0 text-center">
          
-          <h1 className="font-bold text-[30px] sm:text-[50px] mt-5 underline">
+          <h1 className="font-bold text-[30px] sm:text-[50px] mt-5 underline text-yellow-600">
             Find Me!!
           </h1>
   

@@ -18,7 +18,7 @@ export function Project() {
   return (
     <>
       <div className="h-auto w-full max-w-[800px] flex flex-col items-center space-y-10 mx-auto p-4">
-        <p className="font-bold text-[32px] sm:text-[40px] text-white underline text-center">Proof of Work</p>
+        <p className="font-bold text-[32px] sm:text-[40px] text-yellow-600 underline text-center">Proof of Work</p>
 
         {/* video section */}
         <div className="space-y-9">
@@ -52,7 +52,7 @@ export function Project() {
 
         {/* project cards */}
         <div className="mt-4 w-full flex flex-col items-center space-y-10">
-          <h1 className="text-[32px] sm:text-[40px] font-bold text-white p-6 text-center">My previous project</h1>
+          <h1 className="text-[32px] sm:text-[40px] font-bold text-yellow-600 underline p-6 text-center">My previous project</h1>
 
           <Cards
             sFirst={"React.js"}

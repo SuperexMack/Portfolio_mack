@@ -36,7 +36,7 @@ export function PeopleSay() {
     <>
       <div className="h-auto w-full max-w-[800px] flex flex-col space-y-10 items-center px-4 sm:px-0">
         
-        <h1 className="font-bold text-[30px] sm:text-[50px] underline text-center">
+        <h1 className="font-bold text-[30px] sm:text-[50px] underline text-center text-yellow-600">
           What People Say
         </h1>
 
@@ -50,17 +50,17 @@ export function PeopleSay() {
         </div>
 
         
-        <div className="flex flex-row justify-center items-center space-x-6 sm:space-x-12 bg-slate-800 rounded-lg p-2 transition-transform duration-300 hover:scale-105">
+        <div className="flex w-[80%] flex-row justify-center items-center space-x-6 sm:space-x-12 bg-slate-800 rounded-lg p-2 transition-transform duration-300 hover:scale-105">
           <p
             onClick={decreaser}
-            className="text-[40px] sm:text-[50px] text-slate-300 hover:cursor-pointer"
+            className="text-[40px] font-bold sm:text-[50px] text-slate-300 hover:cursor-pointer"
           >
             {right}
           </p>
-          <p className="text-[16px] sm:text-[20px] text-slate-300">{plus}</p>
+          <p className="text-[16px] font-bold sm:text-[25px] text-slate-300">{plus}/8</p>
           <p
             onClick={increser}
-            className="text-[40px] sm:text-[50px] text-slate-300 hover:cursor-pointer"
+            className="text-[40px] font-bold sm:text-[50px] text-slate-300 hover:cursor-pointer"
           >
             {left}
           </p>
