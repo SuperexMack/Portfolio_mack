@@ -35,12 +35,12 @@ export function PeopleSay() {
   return (
     <>
       <div className="h-auto w-full max-w-[800px] flex flex-col space-y-10 items-center px-4 sm:px-0">
-        {/* Header */}
+        
         <h1 className="font-bold text-[30px] sm:text-[50px] underline text-center">
           What People Say
         </h1>
 
-        {/* Image Display */}
+       
         <div className="w-full h-[200px] sm:h-[250px] flex justify-center items-center bg-transparent">
           <img
             className="w-full h-full object-contain rounded-lg"
@@ -49,7 +49,7 @@ export function PeopleSay() {
           />
         </div>
 
-        {/* Controls */}
+        
         <div className="flex flex-row justify-center items-center space-x-6 sm:space-x-12 bg-slate-800 rounded-lg p-2 transition-transform duration-300 hover:scale-105">
           <p
             onClick={decreaser}
