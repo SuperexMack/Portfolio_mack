@@ -62,6 +62,7 @@ export function Project() {
             sFive={"Socket.io"}
             title={"1. A Live Streaming Playing Application"}
             description={First}
+            idd={"https://github.com/SuperexMack/Music_Live"}
           ></Cards>
           <Cards
             sFirst={"React.js"}
@@ -70,6 +71,7 @@ export function Project() {
             sFourth={"Express.js"}
             title={"2. A Full Stack for UNO (for a hackathon)"}
             description={Second}
+            idd={"https://github.com/SuperexMack/faith"}
           ></Cards>
           <Cards
             sFirst={"React.js"}
@@ -77,6 +79,7 @@ export function Project() {
             sFive={"Tailwind"}
             title={"3. A Wallet Adapter"}
             description={walletAdaper}
+            idd={"https://github.com/SuperexMack/Token_LaunchPad"}
           ></Cards>
         </div>
       </div>

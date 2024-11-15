@@ -1,4 +1,4 @@
-export function Cards({ title, description, sFirst, sSecond, sThird, sFourth, sFive }) {
+export function Cards({ title, description, sFirst, sSecond, sThird, sFourth, sFive , idd}) {
   const stylee =
     "bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 p-2 rounded-full text-white text-sm sm:text-base font-semibold";
 
@@ -10,7 +10,7 @@ export function Cards({ title, description, sFirst, sSecond, sThird, sFourth, sF
             {title}
           </h1>
           <p className="text-white text-3xl sm:text-5xl">
-            <i className="fa-solid fa-rocket"></i>
+           <a href={idd}><i className="fa-solid fa-rocket"></i></a> 
           </p>
         </div>
 
