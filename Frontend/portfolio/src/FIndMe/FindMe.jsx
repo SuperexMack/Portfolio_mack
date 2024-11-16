@@ -13,10 +13,10 @@ export function FindMe() {
             
             <div className="flex flex-wrap justify-center gap-6">
               <a href="https://www.linkedin.com/in/mohit-sati-pop/"><i className="fa-brands fa-linkedin cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
-              <a href="https://discord.com/channels/@me"><i className="fa-brands fa-discord cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://discordapp.com/users/1081135712642015292"><i className="fa-brands fa-discord cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
               <a href="https://x.com/TSilent_Monk"><i className="fa-brands fa-twitter cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
               <a href="https://github.com/SuperexMack"><i className="fa-brands fa-github cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
-              <a href="https://github.com/SuperexMack"><i className="fa-brands fa-square-instagram cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://www.instagram.com/dp_127.0.0.1"><i className="fa-brands fa-square-instagram cursor-pointer text-[40px] sm:text-[50px] transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
             </div>
   
 

@@ -18,7 +18,7 @@ export function User() {
             <h1 className="text-[20px] sm:text-[25px] lg:text-[30px]">Mohit Sati</h1>
             <div className="flex justify-center sm:justify-start flex-row space-x-4 sm:space-x-6 text-[16px] sm:text-[18px] lg:text-[20px]">
               <a href="https://www.linkedin.com/in/mohit-sati-pop/"><i  className="fa-brands fa-linkedin cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
-              <a href="https://discord.com/channels/@me"><i  className="fa-brands fa-discord cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
+              <a href="https://discordapp.com/users/1081135712642015292"><i  className="fa-brands fa-discord cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
               <a href="https://x.com/TSilent_Monk"><i  className="fa-brands fa-twitter cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
               <a href="https://github.com/SuperexMack"><i  className="fa-brands fa-github cursor-pointer transition-transform duration-300 hover:scale-125 hover:text-slate-400"></i></a>
             </div>
